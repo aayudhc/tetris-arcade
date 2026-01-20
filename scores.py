@@ -14,7 +14,7 @@ class Scores:
     def convert_points(self) -> None:
         self.total_lines_cleared += self.current_lines_cleared
 
-        match(self.current_lines_cleared):
+        match self.current_lines_cleared:
             case 1:
                 self.points += 40
             case 2:
@@ -23,7 +23,7 @@ class Scores:
                 self.points += 300
             case 4:
                 self.points += 1200
-        
+
         self.current_lines_cleared = 0
 
     def get_score(self) -> int:
