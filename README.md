@@ -14,7 +14,6 @@ A barebones version of tetris made with the python **arcade** framework.
 
 - Download a release your system can run & start the executable(EXE or ELF).
 - If there is an executable in the *dist* folder, run it from there.
-- If you're on windows & already have a *dist*, the shortcut *TETRIS GAME* should start the game.
 
 ## Run from Source 
 
